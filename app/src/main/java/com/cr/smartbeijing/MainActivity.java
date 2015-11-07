@@ -10,7 +10,7 @@ import com.cr.smartbeijing.Fragement.Content_Fragment;
 import com.cr.smartbeijing.Fragement.Menu_Fragment;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
-
+//Demo
 public class MainActivity extends SlidingFragmentActivity {
 
 	@Override
