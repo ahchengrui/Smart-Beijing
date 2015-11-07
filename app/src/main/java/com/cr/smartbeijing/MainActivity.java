@@ -10,7 +10,7 @@ import com.cr.smartbeijing.Fragement.Content_Fragment;
 import com.cr.smartbeijing.Fragement.Menu_Fragment;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
-//Demo
+//Demo12
 public class MainActivity extends SlidingFragmentActivity {
 
 	@Override
@@ -26,10 +26,8 @@ public class MainActivity extends SlidingFragmentActivity {
 		setBehindContentView(R.layout.menu_left);
 		SlidingMenu slidingMenu = getSlidingMenu();// 获取侧边栏对象
 		slidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);// 设置全屏触摸
-
 		slidingMenu.setSecondaryMenu(R.layout.menu_right);// 设置右侧边栏
 		slidingMenu.setMode(SlidingMenu.LEFT_RIGHT);// 设置展现模式
-
 		slidingMenu.setBehindOffset(300);// 设置预留屏幕的宽度
 		initFragment();
 	}
