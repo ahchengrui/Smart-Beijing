@@ -9,11 +9,11 @@
         <dex dex="/home/demo/workspace_android/SmartBeijing/app/build/intermediates/pre-dexed/debug/xUtils-2.6.14-a53b87961357b8418d2c94cc4c0640d469efc85c.jar" />
     </item>
     <item
-        jar="/home/demo/workspace_android/SmartBeijing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.0/jars/classes.jar"
+        jar="/home/demo/workspace_android/SmartBeijing/app/src/main/res/libs/gson-2.3.1.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="eb69b5c2e53e59d82f7439f3217f46f9d98f0c89">
-        <dex dex="/home/demo/workspace_android/SmartBeijing/app/build/intermediates/pre-dexed/debug/classes-428bedef3e603dcdb1319d4a66161070b49f48d7.jar" />
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/demo/workspace_android/SmartBeijing/app/build/intermediates/pre-dexed/debug/gson-2.3.1-51164b608e30b83f29772d533342551c8038f94c.jar" />
     </item>
     <item
         jar="/home/demo/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.0.0/support-v4-19.0.0.jar"
@@ -21,6 +21,13 @@
         revision="19.1.0"
         sha1="afee690af14bd2c32d400cdf78e746fd45c386fa">
         <dex dex="/home/demo/workspace_android/SmartBeijing/app/build/intermediates/pre-dexed/debug/support-v4-19.0.0-dd519f39b653b3aa71b5f53766eec357ea67548a.jar" />
+    </item>
+    <item
+        jar="/home/demo/workspace_android/SmartBeijing/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="eb69b5c2e53e59d82f7439f3217f46f9d98f0c89">
+        <dex dex="/home/demo/workspace_android/SmartBeijing/app/build/intermediates/pre-dexed/debug/classes-428bedef3e603dcdb1319d4a66161070b49f48d7.jar" />
     </item>
     <item
         jar="/home/demo/workspace_android/SmartBeijing/app/build/intermediates/exploded-aar/SmartBeijing.libraries/SlidingMenu/unspecified/jars/classes.jar"

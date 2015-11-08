@@ -4,10 +4,13 @@
     android:id="@+id/menu_left"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fff000"
+    <ImageButton
+        android:id="@+id/ibtn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_menu"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
         />
 
 </FrameLayout><!-- From: file:/home/demo/workspace_android/SmartBeijing/app/src/main/res/layout/menu_left.xml -->

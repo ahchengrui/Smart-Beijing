@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<TextView
-    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#000">
+<ListView
+    android:id="@+id/lv_list"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="menu"/>
-</FrameLayout><!-- From: file:/home/demo/workspace_android/SmartBeijing/app/src/main/res/layout/menu_fragment.xml -->
+    android:listSelector="@null"
+    android:divider="@android:color/transparent"
+    android:layout_marginTop="40dp"
+    />
+</RelativeLayout><!-- From: file:/home/demo/workspace_android/SmartBeijing/app/src/main/res/layout/menu_fragment.xml -->
