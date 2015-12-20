@@ -1,6 +1,5 @@
 package com.cr.smartbeijing.Base;
 
-import com.cr.smartbeijing.Base.BaseMenuDetailPager;
 import com.cr.smartbeijing.Domain.NewsData.NewsTabData;
 
 import android.app.Activity;
@@ -20,9 +19,9 @@ public class TabDetailPager extends BaseMenuDetailPager {
 	NewsTabData mTabData;
 	private TextView tvText;
 
-	public TabDetailPager(Activity activity, NewsTabData newsTabData) {
+	public TabDetailPager(Activity activity,NewsTabData data) {
 		super(activity);
-		mTabData = newsTabData;
+		mTabData = data;
 	}
 
 	@Override
