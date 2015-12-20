@@ -5,6 +5,10 @@ import android.app.Activity;
 import android.app.Activity;
 import android.view.View;
 
+import com.cr.smartbeijing.Domain.NewsData;
+
+import java.util.ArrayList;
+
 /**
  * 菜单详情页基类
  * 
@@ -19,6 +23,7 @@ public abstract class BaseMenuDetailPager {
 
 	public BaseMenuDetailPager(Activity activity) {
 		mActivity = activity;
+
 		mRootView = initViews();
 	}
 

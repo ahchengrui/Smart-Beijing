@@ -30,7 +30,7 @@ public abstract  class BasePager {
     public BasePager(Activity activity) {
         mActivity = activity;
         initUi();
-        initData();
+
     }
     public void initUi(){
         mRootView = View.inflate(mActivity, R.layout.basepager,null);
@@ -49,7 +49,9 @@ public abstract  class BasePager {
         SlidingMenu slidingMenu = mainUi.getSlidingMenu();
         slidingMenu.toggle();// 切换状态, 显示时隐藏, 隐藏时显示
     }
-    public abstract void initData();
+    public void initData(){
+
+    };
     public void setSlidingMenuEnable(boolean enable) {
         MainActivity mainUi = (MainActivity) mActivity;
 
